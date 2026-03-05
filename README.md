@@ -97,7 +97,7 @@ cd fork
 ```
 cd backend
 npm install
-npm run dev
+npm start
 ```
 
 ## 3️⃣ Frontend Setup
@@ -110,17 +110,26 @@ npm run dev
 
 ---
 
-# 🔑 Environment Variables
+## 🔑 Environment Variables
 
-Create a `.env` file inside the **backend** folder and add:
+Create the following `.env` files for proper configuration.
 
-```
+### Backend (`backend/.env`)
+
+```env
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_key
 CLOUDINARY_API_SECRET=your_secret
 ```
+
+### Frontend (`frontend/.env`)
+
+```env
+VITE_API_URL=http://localhost:5000
+```
+
 
 ---
 
