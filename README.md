@@ -110,7 +110,7 @@ npm run dev
 
 ---
 
-# 🔑 Environment Variables
+## 🔑 Environment Variables
 
 ### Backend (`backend/.env`)
 
