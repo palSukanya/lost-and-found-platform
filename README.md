@@ -112,8 +112,6 @@ npm run dev
 
 ## 🔑 Environment Variables
 
-Create the following `.env` files for proper configuration.
-
 ### Backend (`backend/.env`)
 
 ```env
@@ -129,8 +127,6 @@ CLOUDINARY_API_SECRET=your_secret
 ```env
 VITE_API_URL=http://localhost:5000
 ```
-
-
 ---
 
 # 🎯 Vision
